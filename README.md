@@ -1,5 +1,2 @@
-@webcaetano Node module boilerplate
+Simple Node boilerplate
 
-- Require nodemon
-- Testings in Ava
-- Travis setup
