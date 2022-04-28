@@ -12,4 +12,6 @@ var self = function(options){
 
 }
 
-module.exports = self;
+console.log('x')
+
+// module.exports = self;
