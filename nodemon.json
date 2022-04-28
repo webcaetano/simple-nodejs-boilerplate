@@ -1,0 +1,11 @@
+{
+	"watch": ["."],
+	"ext": "ts,js,json",
+	"ignore": [
+
+	],
+	"exec":"ts-node",
+	"env": {
+		"NODE_ENV": "development"
+	}
+}

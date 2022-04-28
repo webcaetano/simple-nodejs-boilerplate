@@ -5,19 +5,54 @@ var fs = require('fs');
 var _ = require('lodash');
 
 
+
+require('#/b')();
+
+
+
+
 // require('#/t/test');
 require('#/a');
 
-// insert defaults here
-var defaults = {
-
+var a = function(options){
+	console.log('bc')
 }
 
-var self = function(options){
-	options = _.extend({},defaults,options);
 
-}
+// interface Pos {
+// 	x:number,
+// 	y?:number,
+// }
 
-console.log('x')
+// var a:Pos[] = [];
+
+// var self = function(_options?:Pos){
+// 	var defaults = {
+
+// 	}
+
+// 	var options = _.extend({},defaults,_options);
+
+// 	console.log(options)
+// }
+
+// self({
+// 	x:1,
+// 	y:2
+// })
+
+
+// a.push({
+// 	x:1,
+// 	y:2
+// })
+
+// a.push({
+// 	x:3,
+// 	// y:2
+// })
+
+// console.log(a)
+// console.log(c)
 
 // module.exports = self;

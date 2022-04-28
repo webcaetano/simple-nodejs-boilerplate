@@ -6,7 +6,7 @@
   "author": "Andre Caetano",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon ./index.js",
+    "dev": "nodemon ./index.js --config nodemon.json",
     "test": "nodemon --exec 'ava'"
   },
   "imports": {
